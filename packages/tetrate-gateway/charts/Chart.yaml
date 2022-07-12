@@ -1,0 +1,26 @@
+apiVersion: v1
+appVersion: 1.13.5
+description: Helm chart for deploying Istio Ingres Gateway
+home: https://istio.tetratelabs.io
+icon: https://istio.tetratelabs.io/images/getistio-favicon.png
+keywords:
+- istio
+- istiod
+- istio-discovery
+- tid
+- tetrate
+- distribution
+- networking
+- infrastructure
+maintainers:
+- email: tetrate@tetrate.io
+  name: tetrate
+name: tetrate-gateway
+version: 1.13.5
+annotations:
+  catalog.cattle.io/certified: partner
+  catalog.cattle.io/namespace: istio-system
+  catalog.cattle.io/release-name: tetrate-gateway
+  catalog.cattle.io/display-name: Tetrate Istio Distro Gateway
+  catalog.cattle.io/upstream-version: 1.13.5
+kubeVersion: ">= 1.19.0-0 < 1.23.0-0"

@@ -1,0 +1,14 @@
+--- charts-original/Chart.yaml
++++ charts/Chart.yaml
+@@ -17,3 +17,10 @@
+   name: tetrate
+ name: tetrate-gateway
+ version: 1.13.5
++annotations:
++  catalog.cattle.io/certified: partner
++  catalog.cattle.io/namespace: istio-system
++  catalog.cattle.io/release-name: tetrate-gateway
++  catalog.cattle.io/display-name: Tetrate Istio Distro Gateway
++  catalog.cattle.io/upstream-version: 1.13.5
++kubeVersion: ">= 1.19.0-0 < 1.23.0-0"
+\ No newline at end of file

@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/petr/go/src/github.com/PetrMc/partner-charts'
+./scripts/pull-scripts
+make: Leaving directory '/home/petr/go/src/github.com/PetrMc/partner-charts'
+ 
