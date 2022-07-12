@@ -7,17 +7,15 @@
  description: Helm chart for deploying Istio Ingres Gateway
  home: https://istio.tetratelabs.io
  icon: https://istio.tetratelabs.io/images/getistio-favicon.png
-@@ -16,4 +16,11 @@
- - email: tetrate@tetrate.io
+@@ -17,3 +17,10 @@
    name: tetrate
  name: tetrate-gateway
--version: 1.12.6
-+version: 1.13.5
+ version: 1.12.6
 +annotations:
 +  catalog.cattle.io/certified: partner
 +  catalog.cattle.io/namespace: istio-system
 +  catalog.cattle.io/release-name: tetrate-gateway
 +  catalog.cattle.io/display-name: Tetrate Istio Distro Gateway
-+  catalog.cattle.io/upstream-version: 1.13.5
++  catalog.cattle.io/upstream-version: 1.12.6
 +kubeVersion: ">= 1.19.0-0 < 1.23.0-0"
 \ No newline at end of file
